@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Tic-Tac-Toe</li>
+          <li class="volume">
+            Music
+            <span><i class="fas fa-volume-up"></i></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <div class="space" id="box-0"></div>
+        <div class="space" id="box-1"></div>
+        <div class="space" id="box-2"></div>
+        <div class="space" id="box-3"></div>
+        <div class="space" id="box-4"></div>
+        <div class="space" id="box-5"></div>
+        <div class="space" id="box-6"></div>
+        <div class="space" id="box-7"></div>
+        <div class="space" id="box-8"></div>
+      </div>
+    </section>
+    <div>
+      <img src="./assets/excited.gif" alt="" />
+    </div>
+    <article>
+      <div class="banner">
+        <button class="btn-reset">Reset</button>
+        <h2>
+          Player
+          <span id="turn">X</span>
+          Turn
+        </h2>
+        <span id="won"></span>
+      </div>
+    </article>
+  </body>
+</html>
